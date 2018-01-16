@@ -1,5 +1,5 @@
 # Schema for the configuration files of the Bartik theme.
 
-cincinnati.settings:
+mytheme.settings:
   type: theme_settings
-  label: 'cincinnati settings'
+  label: 'mytheme settings'
