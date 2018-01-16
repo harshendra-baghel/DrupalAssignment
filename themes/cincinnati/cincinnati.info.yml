@@ -1,0 +1,27 @@
+name: Cincinnati Public Schools
+description: A Fully Responsive Cincinnati Public School
+base theme: classy
+package: Custom
+type: theme
+engine: twig
+core: 8.x
+libraries:
+  - cincinnati/global-css
+  - cincinnati/global-js
+
+
+# Remove a CSS file:​
+stylesheets-remove:
+  #- core/assets/vendor/jquery.ui/themes/base/dialog.css
+
+# Removing a stylesheet from Bartik using the @ token.
+stylesheets-remove:
+  - '@bartik/css/style.css'
+
+# Regions
+regions:
+  header:  'Header'
+  content: 'Main Content'
+  sidebar_first: 'Sidebar First'
+  sidebar_scond: 'Sidebar Second'
+  footer:  'Footer'

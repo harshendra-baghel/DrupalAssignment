@@ -1,0 +1,68 @@
+{% include directory ~ '/partials/header.html.twig' %}
+   <div class = "container-fluid login_bg">
+  <main role="main">
+    <div class="layout-content">
+      <div class="article-list">
+        {{ page.content }}
+        </div>
+    </div>
+  </main>
+<html lang="en">
+
+<head>
+    <title>CINCINNATI PUBLIC SCHOOLS</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="container-fluid login_bg">
+        <div class="login-wrapper text-center">
+            <h1 class="logo">CINCINNATI PUBLIC SCHOOLS</h1>
+            <div class="input-group">
+                <span class="input-group-addon gplus-icns" id="basic-addon2"><i><img src="http://localhost/iamharshendrabaghel/sites/default/files/Gplus-icn.png"></i></span>
+                <button class="form-control gplus-login-btn">Sign in with Google</button>
+
+            </div>
+
+            <span class="gplus-login">OR LOGIN WITH</span>
+            <form action="" method="post" name="Login_Form" class="form-signin">
+                <div class="input-group">
+
+                    <input type="text" class="form-control" name="Username" placeholder="Username" required="" autofocus="" />
+                    <span class="input-group-addon input-icns" id="basic-addon2"><i class="fa fa-user" aria-hidden="true"></i></span>
+                </div>
+                <div class="input-group">
+
+                    <input type="password" class="form-control" name="Password" placeholder="Password" required="" />
+                    <span class="input-group-addon input-icns" id="basic-addon2"><i class="fa fa-lock" aria-hidden="true"></i></span>
+                </div>
+
+
+
+                <button class="btn btn-lg btn-login btn-block" name="Submit" value="Login" type="Submit">Login</button>
+                <a href="javascript:void(0);" title="Forgot your password?">Forgot your password?</a>
+
+
+
+            </form>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
+{% include directory ~ '/partials/footer.html.twig' %}
